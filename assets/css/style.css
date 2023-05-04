@@ -7,11 +7,20 @@
 body {
     font-family: Jost, Helvetica, sans-serif;
     font-weight: 300;
-    color: #6a6e70; 
+    color: #6a6e70;
 }
 
 /* headings and logo */
 
-h1, h2 {
+h1 {
     font-family: Jost, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 800;
+}
+
+#logo {
+    float: left;
+    margin-left: 1em;
+    font-size: 200%;
 }
