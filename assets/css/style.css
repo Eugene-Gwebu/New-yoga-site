@@ -12,6 +12,12 @@ body {
 
 /* headings and logo */
 
+header {
+    min-height: 65px;
+    width: 100%;
+    background-color: #b7e4cf;
+}
+
 h1 {
     font-family: Jost, Helvetica, sans-serif;
     text-transform: uppercase;
