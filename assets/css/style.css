@@ -13,7 +13,7 @@ body {
 /* headings and logo */
 
 header {
-    min-height: 65px;
+    min-height: 70px;
     width: 100%;
     background-color: #b7e4cf;
 }
@@ -47,6 +47,7 @@ h1 {
     float: right;
     list-style-type: none;
     margin-right: 1em;
+    text-transform: uppercase;
 }
 
 #menu a {
@@ -60,4 +61,11 @@ h1 {
 
 .active {
     border-bottom: 2px solid #fac367;
+}
+
+/* hero section */
+
+img {
+    width: 100%;
+    height: 850px;
 }
