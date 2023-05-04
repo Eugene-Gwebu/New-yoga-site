@@ -25,14 +25,33 @@ h1 {
     font-size: 200%;
 }
 
+#menu,
+#logo {
+    line-height: 75px;
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
 }
 
 
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 1em;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #fac367;
+}
+
+.active {
+    border-bottom: 2px solid #fac367;
 }
