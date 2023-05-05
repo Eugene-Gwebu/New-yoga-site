@@ -7,7 +7,7 @@
 body {
     font-family: Jost, Helvetica, sans-serif;
     font-weight: 300;
-    color: #6a6e70;
+    color: #fac367;
 }
 
 /* headings and logo */
@@ -15,7 +15,7 @@ body {
 header {
     min-height: 70px;
     width: 100%;
-    background-color: #b7e4cf;
+    background-color: #c8405c;
     position: fixed;
     z-index: 2;
 }
@@ -31,6 +31,7 @@ h1 {
     float: left;
     margin-left: 1em;
     font-size: 200%;
+    color: #fac367;
 }
 
 #menu,
@@ -87,7 +88,7 @@ h1 {
     padding-top: 1rem;
     padding-left: 0.6rem;
 
-    background-color: rgba(252, 205, 89, .7);
+    background-color: rgba(250, 195, 103, .7);
 
     bottom: 25rem;
     right: 60rem;
