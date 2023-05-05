@@ -16,6 +16,8 @@ header {
     min-height: 70px;
     width: 100%;
     background-color: #b7e4cf;
+    position: fixed;
+    z-index: 2;
 }
 
 h1 {
@@ -63,7 +65,35 @@ h1 {
     border-bottom: 2px solid #fac367;
 }
 
-/* hero section */
+/* hero section, image and cover text */
+
+#home {
+    margin: 0%;
+    position: relative;
+}
+
+
+#cover-text {
+    font-size: 150%;
+    font-family: Jost, Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    color: #c8405c;
+    border-radius: 8px;
+
+    width: 30rem;
+    height: 7rem;
+
+    padding-top: 1rem;
+    padding-left: 0.6rem;
+
+    background-color: rgba(252, 205, 89, .7);
+
+    bottom: 25rem;
+    right: 60rem;
+
+    position: absolute;
+}
 
 img {
     width: 100%;
