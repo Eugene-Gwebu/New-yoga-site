@@ -15,7 +15,7 @@ body {
 header {
     min-height: 70px;
     width: 100%;
-    background-color: #c8405c;
+    background-color: rgba(200, 64, 92, .9);
     position: fixed;
     z-index: 2;
 }
@@ -99,4 +99,24 @@ h1 {
 img {
     width: 100%;
     height: 850px;
+}
+
+/* mission section */
+
+#mission {
+    height: 800px;
+}
+
+#left-mission {
+    padding-top: 30px;
+    width: 66%;
+    float: left;
+    background-color: blue;
+}
+
+#right-mission {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: red;
 }
