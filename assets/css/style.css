@@ -126,11 +126,29 @@ img {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: red;
+    background-color: ;
+    padding-right: 70px;
 }
 
 aside>p {
-    font-size: 230%;
+    font-size: 220%;
     margin-left: 20px;
     margin-bottom: 20px;
+}
+
+#circle-container {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #c8405c;
+    border-width: 2px;
+    border-radius: 50%;
+    margin-right: 50;
+}
+
+#circle-cover-bg {
+    background: url('../images/mission-image1.webp') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
