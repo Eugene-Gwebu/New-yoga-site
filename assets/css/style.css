@@ -27,6 +27,10 @@ h1 {
     font-weight: 800;
 }
 
+h2 {
+    font-weight: bold;
+}
+
 #logo {
     float: left;
     margin-left: 1em;
@@ -80,13 +84,13 @@ h1 {
     text-transform: capitalize;
     letter-spacing: 4px;
     color: #c8405c;
-    border-radius: 8px;
+    border-radius: 30px;
 
     width: 30rem;
     height: 10rem;
 
     padding-top: 1rem;
-    padding-left: 0.6rem;
+    padding-left: 1rem;
 
     background-color: rgba(250, 195, 103, .7);
 
@@ -130,8 +134,9 @@ img {
     padding-right: 70px;
 }
 
+
 aside>p {
-    font-size: 220%;
+    font-size: 200%;
     margin-left: 20px;
     margin-bottom: 20px;
 }
@@ -151,4 +156,68 @@ aside>p {
     background: url('../images/mission-image1.webp') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+
+/* classes section */
+
+#classes {
+    height: 640px;
+    padding-top: 108px;
+}
+
+#our-classes {
+    text-align: center;
+    font-size: 250%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#hatha-yoga {
+    background-color: #c8405c;
+    position: relative;
+    left: 20px;
+    top: -15px;
+    padding: 20px;
+}
+
+.float-left {
+    float: left;
+}
+
+#ashtanga-yoga {
+    background-color: #c8405c;
+    position: relative;
+    top: -15px;
+    padding: 20px;
+}
+
+#meditation {
+    background-color: #c8405c;
+    position: relative;
+    right: 20px;
+    top: -15px;
+    padding: 20px;
+}
+
+.float-right {
+    float: right;
+}
+
+.classes-box {
+    width: 25%;
+    margin-right: 10px;
+    display: inline-block;
+    margin-top: 350px;
+    border-radius: 40px;
+}
+
+.classes-box>h3 {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.classes-box>p {
+    font-size: x-large;
 }
