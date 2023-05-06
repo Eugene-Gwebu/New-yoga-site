@@ -20,6 +20,12 @@ header {
     z-index: 2;
 }
 
+nav {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
 h1 {
     font-family: Jost, Helvetica, sans-serif;
     text-transform: uppercase;
@@ -32,8 +38,9 @@ h2 {
 }
 
 #logo {
-    float: left;
-    margin-left: 1em;
+    width: 49%;
+    display: inline-block;
+    text-align: center;
     font-size: 200%;
     color: #fac367;
 }
@@ -51,10 +58,10 @@ h2 {
 
 
 #menu li {
-    float: right;
     list-style-type: none;
     margin-right: 1em;
     text-transform: uppercase;
+    display: inline-block;
 }
 
 #menu a {
@@ -220,4 +227,22 @@ aside>p {
 
 .classes-box>p {
     font-size: x-large;
+}
+
+/* Contact Section */
+
+#contact {
+    height: 640px;
+    padding-top: 260px;
+}
+
+.contact-box-container {
+    width: 66%;
+    margin: 0 auto;
+}
+
+.contact-box-left {
+    width: 250px;
+    margin-top: -20px;
+    float: left;
 }
