@@ -234,7 +234,7 @@ aside>p {
 /* Contact Section */
 
 #contact {
-    height: 640px;
+    height: 400px;
     padding-top: 260px;
 }
 
@@ -244,7 +244,17 @@ aside>p {
 }
 
 .contact-box-left {
-    width: 250px;
+    width: 50%;
     margin-top: -20px;
-    float: left;
+    display: inline-block;
+}
+
+.contact-box-right {
+    width: 49%;
+    text-align: right;
+    display: inline-block;
+}
+
+.bold {
+    font-weight: bold;
 }
