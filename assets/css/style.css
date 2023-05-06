@@ -238,6 +238,10 @@ aside>p {
     padding-top: 260px;
 }
 
+.contact-center {
+    text-align: center;
+}
+
 .contact-box-container {
     width: 66%;
     margin: 0 auto;
@@ -255,6 +259,11 @@ aside>p {
     display: inline-block;
 }
 
+.contact-box-right>h3 {
+    font-size: x-large;
+}
+
 .bold {
     font-weight: bold;
+    font-size: x-large;
 }
