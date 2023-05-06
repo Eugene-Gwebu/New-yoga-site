@@ -125,20 +125,18 @@ img {
 
 
 #left-mission {
-    padding-top: 30px;
     width: 60%;
-    float: left;
     background-color: rgba(200, 64, 92, .9);
     border-radius: 50px;
-    margin-left: 1rem
+    display: inline-block;
+    vertical-align: top;
 }
 
 #right-mission {
-    padding-top: 30px;
     width: 33%;
-    float: right;
     background-color: ;
-    padding-right: 70px;
+    display: inline-block;
+    margin-left: 22px;
 }
 
 
@@ -173,8 +171,9 @@ aside>p {
 }
 
 #our-classes {
-    text-align: center;
     font-size: 250%;
+    padding-top: 20px;
+    display: block;
 }
 
 .text-center {
@@ -187,6 +186,7 @@ aside>p {
     left: 20px;
     top: -15px;
     padding: 20px;
+    min-height: 400px;
 }
 
 .float-left {
@@ -198,6 +198,7 @@ aside>p {
     position: relative;
     top: -15px;
     padding: 20px;
+    min-height: 400px;
 }
 
 #meditation {
@@ -206,6 +207,7 @@ aside>p {
     right: 20px;
     top: -15px;
     padding: 20px;
+    min-height: 400px;
 }
 
 .float-right {
