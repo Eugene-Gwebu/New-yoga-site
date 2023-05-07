@@ -135,7 +135,6 @@ img {
 
 #right-mission {
     width: 33%;
-    background-color: ;
     display: inline-block;
     margin-left: 22px;
 }
@@ -272,5 +271,87 @@ aside>p {
 /* Form Section */
 
 #subscribe {
-    height: 500px;
+    height: 1150px;
+}
+
+.join-us {
+    text-align: center;
+}
+
+#subscriptions-container {
+    width: 700px;
+    margin: 25px auto;
+}
+
+.standard-subscription {
+    width: 40%;
+    min-height: 300px;
+    background-color: #c8405c;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    right: 18px;
+}
+
+.premium-subscription {
+    width: 40%;
+    min-height: 300px;
+    background-color: #c8405c;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    left: 75px;
+}
+
+form {
+    width: 700px;
+    padding: 25px;
+    border-radius: 8px;
+    margin: 25px auto;
+    background-color: ;
+}
+
+legend {
+    font-size: large;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
+}
+
+fieldset {
+    border: 2px solid;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.block-label {
+    display: block;
+}
+
+.submit-button {
+    display: inline-block;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: #c8405c;
+    color: #fac367;
+    border: 2px solid #fac367;
+    border-radius: 5px;
+}
+
+input[type=reset] {
+
+    margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: #c8405c;
+    color: #fac367;
+    border: 2px solid #fac367;
+    border-radius: 5px;
+    position: relative;
+    left: 506px;
 }
