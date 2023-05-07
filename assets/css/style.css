@@ -80,6 +80,7 @@ h2 {
 /* hero section, image and cover text */
 
 #home {
+    height: 930px;
     margin: 0%;
     position: relative;
 }
@@ -116,7 +117,7 @@ img {
 /* mission section */
 
 #mission {
-    height: 640px;
+    height: 704px;
 }
 
 #our-mission {
@@ -166,8 +167,7 @@ aside>p {
 /* classes section */
 
 #classes {
-    height: 640px;
-    padding-top: 0;
+    height: 620px;
 }
 
 #our-classes {
@@ -180,46 +180,11 @@ aside>p {
     text-align: center;
 }
 
-#hatha-yoga {
-    background-color: #c8405c;
-    position: relative;
-    left: 20px;
-    top: -15px;
-    padding: 20px;
-    min-height: 400px;
-}
-
-.float-left {
-    float: left;
-}
-
-#ashtanga-yoga {
-    background-color: #c8405c;
-    position: relative;
-    top: -15px;
-    padding: 20px;
-    min-height: 400px;
-}
-
-#meditation {
-    background-color: #c8405c;
-    position: relative;
-    right: 20px;
-    top: -15px;
-    padding: 20px;
-    min-height: 400px;
-}
-
-.float-right {
-    float: right;
-}
 
 .classes-box {
-    width: 25%;
-    margin-right: 10px;
-    display: inline-block;
-    margin-top: 350px;
     border-radius: 40px;
+    text-align: center;
+    margin-right: 10px;
 }
 
 .classes-box>h3 {
@@ -235,7 +200,7 @@ aside>p {
 
 #contact {
     height: 400px;
-    padding-top: 260px;
+    padding-top: 50px;
 }
 
 .contact-center {
@@ -272,18 +237,19 @@ aside>p {
 
 #subscribe {
     height: 1150px;
+    padding-top: 20px;
 }
 
 .join-us {
     text-align: center;
 }
 
-#subscriptions-container {
+.subscriptions-container {
     width: 700px;
     margin: 25px auto;
 }
 
-.standard-subscription {
+.subscription-box {
     width: 40%;
     min-height: 300px;
     background-color: #c8405c;
@@ -291,24 +257,27 @@ aside>p {
     margin: 20px;
     position: relative;
     right: 18px;
+    border-radius: 8px;
 }
 
-.premium-subscription {
-    width: 40%;
-    min-height: 300px;
-    background-color: #c8405c;
-    display: inline-block;
-    margin: 20px;
-    position: relative;
-    left: 75px;
+
+.subscriptions-container h3 {
+    text-align: center;
 }
+
+.subscription-box ul {
+    padding: 1.5em 1.5em 0 1.5em;
+    font-size: 15px;
+    text-align: left;
+    line-height: 1.5em;
+}
+
 
 form {
     width: 700px;
     padding: 25px;
     border-radius: 8px;
     margin: 25px auto;
-    background-color: ;
 }
 
 legend {
