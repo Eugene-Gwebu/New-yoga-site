@@ -137,7 +137,82 @@
         </div>
 
     </section>
-    <section id="subscribe">Subscribe</section>
+    <section id="subscribe">
+        <h2 class="join-us">Join Us!</h2>
+        <form action="https://formdump.codeinstitute.net" method="POST">
+
+            <fieldset>
+                <legend>Please Complete The Form Below</legend>
+
+                <div class="float-left">
+                    <label for="name-field" class="block-label">Name</label>
+                    <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+                </div>
+                <div class="float-left">
+                    <label for="email-field" class="block-label">Email</label>
+                    <input id="email-field" type="email" name="email" placeholder="Your email" required>
+                </div>
+
+                <label for="age" class="block-label">Age</label>
+                <select id="age" name="age" required>
+                    <option value="under-20">Under 20</option>
+                    <option value="20s">20-29</option>
+                    <option value="30s">30-39</option>
+                    <option value="40s">40-49</option>
+                    <option value="50s">50-59</option>
+                    <option value="60+">60+</option>
+                </select>
+
+            </fieldset>
+
+
+            <fieldset>
+
+                <p>Choose Your Subscription!</p>
+
+                <input id="0-2cups-radio" name="cups-a-day" value="0-2cups" type="radio" required>
+                <label for="0-2cups-radio">Standard</label>
+
+                <input id="3-5cups-radio" name="cups-a-day" value="3-5cups" type="radio" required>
+                <label for="3-5cups-radio">Premium</label>
+
+                <p>Which of our services have inspired you to join?</p>
+                <div>
+                    <input type="checkbox" id="brownies-checkbox" name="brownies">
+                    <label for="brownies-checkbox">Yoga</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="cookies-checkbox" name="cookies">
+                    <label for="cookies-checkbox">Meditation</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="nachos-checkbox" name="nachos">
+                    <label for="nachos-checkbox">Group Sessions</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="croissants-checkbox" name="croissants">
+                    <label for="croissants-checkbox">Private Sessions</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="scones-checkbox" name="scones">
+                    <label for="scones-checkbox">All of the Above</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Feedback</legend>
+                <label for="feedback" class="block-label">How can we help you further and improve our services?</label>
+                <br>
+                <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
+            </fieldset>
+
+            </div>
+
+            <input type="submit" class="block-label" value="Join Us!">
+            <input type="reset" value="Reset Form">
+
+        </form>
+    </section>
 </body>
 
 </html>
