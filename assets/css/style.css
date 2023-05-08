@@ -10,6 +10,10 @@ body {
     color: #fac367;
 }
 
+p {
+    font-size: 150%;
+}
+
 /* headings and logo */
 
 header {
@@ -79,12 +83,6 @@ h2 {
 
 /* hero section, image and cover text */
 
-#home {
-    margin: 0%;
-    position: relative;
-}
-
-
 #cover-text {
     font-size: 150%;
     font-family: Jost, Arial, Helvetica, sans-serif;
@@ -116,7 +114,7 @@ h2 {
 /* mission section */
 
 .mission-left {
-    width: 60%;
+    width: 48%;
     background-color: #c8405c;
 }
 
@@ -126,7 +124,7 @@ h2 {
 
 .mission-container {
     display: flex;
-    justify-content: end;
+    justify-content: space-evenly;
 }
 
 .card {
@@ -135,6 +133,7 @@ h2 {
 
 #mission {
     text-align: center;
+    margin-top: 15%;
 }
 
 .mission-container {
@@ -142,16 +141,10 @@ h2 {
     justify-content: space-around;
 }
 
-
-/* .circle-container {
-    width: 500px;
-    height: 500px;
-    padding: 20px;
-    border-style: solid;
-    border-color: #c8405c;
-    border-width: 2px;
-    border-radius: 50%;
-} */
+#our-mission {
+    text-align: center;
+    font-size: 250%;
+}
 
 .circle-cover-bg img {
     width: 500px;
@@ -175,11 +168,17 @@ h2 {
 
 #classes {
     text-align: center;
+    margin-top: 10%;
 }
 
 .classes-container {
     display: flex;
     justify-content: space-evenly;
+}
+
+.our-classes {
+    text-align: center;
+    font-size: 250%;
 }
 
 /* Contact Section */
@@ -189,7 +188,8 @@ h2 {
 }
 
 #contact {
-    padding-top: 75px;
+    margin-top: 5%;
+    padding-bottom: 12%;
 }
 
 .contact-center {
@@ -228,14 +228,34 @@ h3 {
     font-size: x-large;
 }
 
+.join-us li {
+    font-size: 150%;
+}
+
 .subscription-box {
     background-color: #c8405c;
     height: 17.4375rem;
     width: 20.5%;
+    padding: 10px;
+    margin: 15px;
+    text-align: left;
 }
 
-.subscribe {
+.subscriptions-container ul {
+    margin-left: 50px;
+}
+
+.move-down {
+    margin-top: 105px;
+}
+
+#subscribe h3 {
     text-align: center;
+}
+
+.join-us {
+    text-align: center;
+    font-size: 250%;
 }
 
 .subscriptions-container {
