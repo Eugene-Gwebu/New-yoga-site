@@ -118,6 +118,7 @@ img {
 
 #mission {
     height: 704px;
+    padding-top: 75px;
 }
 
 #our-mission {
@@ -168,6 +169,7 @@ aside>p {
 
 #classes {
     height: 620px;
+    padding-top: 75px;
 }
 
 #classes>h2 {
@@ -225,7 +227,7 @@ aside>p {
 
 #contact {
     height: 400px;
-    padding-top: 50px;
+    padding-top: 75px;
 }
 
 .contact-center {
@@ -264,14 +266,20 @@ h3 {
     font-size: x-large;
 }
 
+.move-down {
+    margin-top: 46px;
+}
+
 #subscribe {
     height: 1150px;
     padding-top: 20px;
+    padding-bottom: 55px;
 }
 
 .join-us {
     text-align: center;
     font-size: 250%;
+    padding-top: 75px;
 }
 
 #subscribe li {
@@ -372,7 +380,7 @@ input[type=reset] {
 
 footer {
     background-color: #c8405c;
-    padding: 1em 0;
+    padding: 2em 0;
     text-align: center;
     width: 100%;
     bottom: 0;
