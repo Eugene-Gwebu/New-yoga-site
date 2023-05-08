@@ -219,6 +219,10 @@ aside>p {
 
 /* Contact Section */
 
+#contact>h2 {
+    font-size: 250%;
+}
+
 #contact {
     height: 400px;
     padding-top: 50px;
@@ -256,6 +260,10 @@ aside>p {
 
 /* Form Section */
 
+h3 {
+    font-size: x-large;
+}
+
 #subscribe {
     height: 1150px;
     padding-top: 20px;
@@ -263,21 +271,28 @@ aside>p {
 
 .join-us {
     text-align: center;
+    font-size: 250%;
+}
+
+#subscribe li {
+    font-size: larger;
+    font-weight: bold;
 }
 
 .subscriptions-container {
-    width: 780px;
+    width: 764px;
     text-align: center;
     margin: 10px auto;
+    margin-bottom: 19%;
 }
 
 .subscription-box {
-    width: 42%;
+    width: 20.5%;
     min-height: 279px;
     background-color: #c8405c;
     display: inline-block;
-    margin: 5px;
-    border-radius: 17px
+    margin: 26px 25px 21px 30px;
+    border-radius: 18px;
 }
 
 
@@ -286,12 +301,20 @@ aside>p {
 }
 
 .subscription-box ul {
-    padding: 1.5em 1.5em 0 1.5em;
+    padding: 2.5em 1.5em 0 1.5em;
     font-size: 15px;
     text-align: left;
     line-height: 1.5em;
 }
 
+.standard {
+    position: absolute;
+    margin-left: -350px;
+}
+
+.premium {
+    position: absolute;
+}
 
 form {
     width: 700px;
