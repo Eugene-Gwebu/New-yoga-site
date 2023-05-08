@@ -367,3 +367,14 @@ input[type=reset] {
     position: relative;
     left: 506px;
 }
+
+/* Footer Section */
+
+footer {
+    background-color: #c8405c;
+    padding: 1em 0;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
