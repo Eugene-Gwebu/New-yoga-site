@@ -85,7 +85,6 @@ h2 {
     text-transform: capitalize;
     letter-spacing: 4px;
     color: #c8405c;
-    border-radius: 30px;
 
     width: 30rem;
     height: 10rem;
@@ -117,11 +116,6 @@ h2 {
     width: 33%;
 }
 
-.mission-container {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .card {
     height: 500px;
 }
@@ -132,7 +126,7 @@ h2 {
 
 .mission-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #our-mission {
@@ -193,6 +187,7 @@ h2 {
 .contact-box-container {
     width: 66%;
     margin: 0 auto;
+    background-color: #c8405c;
 }
 
 .contact-box-left {
@@ -240,6 +235,10 @@ h3 {
 }
 
 .standard .move-down {
+    margin-top: 25%;
+}
+
+.premium .move-down {
     margin-top: 10%;
 }
 
@@ -288,7 +287,7 @@ fieldset {
 
 input[type=submit] {
     margin-top: 20px;
-    margin-left: 0.75rem;
+    margin-right: 0.75rem;
     padding: 0.75rem;
     background-color: #c8405c;
     color: #fac367;
@@ -300,7 +299,7 @@ input[type=reset] {
 
     margin-top: 20px;
     margin-left: 0.75rem;
-    padding: 0.75rem;
+    padding: 0.5rem;
     background-color: #c8405c;
     color: #fac367;
     border: 2px solid #fac367;
