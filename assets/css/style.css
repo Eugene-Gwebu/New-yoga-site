@@ -17,7 +17,7 @@ header {
     width: 100%;
     background-color: #c8405c;
     position: fixed;
-    z-index: 2;
+    z-index: 100;
 }
 
 nav {
@@ -102,53 +102,49 @@ h2 {
 
     background-color: rgba(250, 195, 103, .7);
 
-    bottom: 25rem;
-    right: 60rem;
+    bottom: 32rem;
+    right: -3rem;
 
-    position: absolute;
+    position: relative;
 }
 
 img {
     width: 100%;
     height: 850px;
-    margin-top: 79px;
+    margin-top: -235px;
 }
 
 /* mission section */
 
-#mission {
-    height: 704px;
-    padding-top: 75px;
-}
-
-#our-mission {
-    text-align: center;
-    font-size: 250%;
-}
-
-
-#left-mission {
+.mission-left {
     width: 60%;
-    background-color: rgba(200, 64, 92, .9);
-    border-radius: 50px;
-    display: inline-block;
-    vertical-align: top;
+    background-color: #c8405c;
 }
 
-#right-mission {
+.mission-right {
     width: 33%;
-    display: inline-block;
-    margin-left: 22px;
+}
+
+.mission-container {
+    display: flex;
+    justify-content: end;
+}
+
+.card {
+    height: 500px;
+}
+
+#mission {
+    text-align: center;
+}
+
+.mission-container {
+    display: flex;
+    justify-content: space-around;
 }
 
 
-aside>p {
-    font-size: 200%;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-
-#circle-container {
+.circle-container {
     width: 500px;
     height: 500px;
     padding: 20px;
@@ -156,67 +152,32 @@ aside>p {
     border-color: #c8405c;
     border-width: 2px;
     border-radius: 50%;
-    margin-right: 50;
 }
 
-#circle-cover-bg {
-    background: url('../images/mission-image1.webp') no-repeat center center;
+.circle-cover-bg {
     height: 100%;
     border-radius: 50%;
+    width: 500px;
+    height: 500px;
 }
+
+
 
 /* classes section */
 
-#classes {
-    height: 620px;
-    padding-top: 75px;
-}
-
-#classes>h2 {
-    text-align: center;
-    margin-bottom: 2%;
-}
-
-#our-classes {
-    font-size: 250%;
-    padding-top: 20px;
-    display: block;
-}
-
 .classes-box {
-    width: 25%;
-    height: 410px;
     background-color: #c8405c;
-    display: inline-block;
-    border-radius: 40px;
-    margin-right: 18px;
+    height: 410px;
+    width: 25%;
+}
+
+#classes {
+    text-align: center;
 }
 
 .classes-container {
-    text-align: center;
-}
-
-#hatha-yoga {
-    margin-left: -30%;
-    position: absolute;
-}
-
-#meditation {
-    margin-left: 4%;
-    position: absolute;
-}
-
-.classes-box p {
-    text-align: center;
-}
-
-.classes-box>h3 {
-    font-size: xx-large;
-    font-weight: bold;
-}
-
-.classes-box>p {
-    font-size: x-large;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* Contact Section */
@@ -385,4 +346,5 @@ footer {
     width: 100%;
     bottom: 0;
     right: 0;
+    text-transform: uppercase;
 }
