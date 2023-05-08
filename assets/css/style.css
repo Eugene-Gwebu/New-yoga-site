@@ -315,6 +315,7 @@ footer {
 }
 
 /* Media Queries */
+/* for larger, tablet sized screens */
 
 @media screen and (max-width: 1200px) {
     .mission-container {
@@ -333,5 +334,18 @@ footer {
         width: 100%;
         padding: 2%;
         float: left;
+    }
+}
+
+/* for medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+    nav {
+        clear: left;
+        float: left;
+        margin-left: 1.875rem;
+        margin-bottom: 1.25rem;
+        line-height: 1.5625rem;
     }
 }
