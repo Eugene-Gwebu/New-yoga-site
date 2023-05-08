@@ -117,7 +117,7 @@ h2 {
 }
 
 .card {
-    height: 500px;
+    height: 31.25rem;
 }
 
 #mission {
@@ -223,7 +223,6 @@ h3 {
 
 .subscription-box {
     background-color: #c8405c;
-    height: 17.4375rem;
     width: 20.5%;
     padding: 10px;
     margin: 15px;
@@ -231,7 +230,7 @@ h3 {
 }
 
 .subscriptions-container ul {
-    margin-left: 50px;
+    margin-left: 3.125rem;
 }
 
 .standard .move-down {
@@ -319,4 +318,26 @@ footer {
     right: 0;
     text-transform: uppercase;
     color: #fac367;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+    .mission-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #our-mission {
+        padding: 30px 0;
+        margin: 0%;
+    }
+
+    .mission-left,
+    .mission-right {
+        width: 100%;
+        padding: 2%;
+        float: left;
+    }
 }
