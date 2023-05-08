@@ -172,6 +172,7 @@ aside>p {
 
 #classes>h2 {
     text-align: center;
+    margin-bottom: 2%;
 }
 
 #our-classes {
@@ -194,11 +195,13 @@ aside>p {
 }
 
 #hatha-yoga {
-    margin-bottom: 0%;
+    margin-left: -30%;
+    position: absolute;
 }
 
 #meditation {
-    margin-bottom: 0%;
+    margin-left: 4%;
+    position: absolute;
 }
 
 .classes-box p {
@@ -273,8 +276,7 @@ aside>p {
     min-height: 279px;
     background-color: #c8405c;
     display: inline-block;
-    margin: 20px;
-    position: relative;
+    margin: 5px;
     border-radius: 17px
 }
 
