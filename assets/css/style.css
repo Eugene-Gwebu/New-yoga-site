@@ -170,21 +170,39 @@ aside>p {
     height: 620px;
 }
 
+#classes>h2 {
+    text-align: center;
+}
+
 #our-classes {
     font-size: 250%;
     padding-top: 20px;
     display: block;
 }
 
-.text-center {
+.classes-box {
+    width: 25%;
+    height: 400px;
+    background-color: #c8405c;
+    display: inline-block;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+
+.classes-container {
     text-align: center;
 }
 
+#hatha-yoga {
+    margin-bottom: 0%;
+}
 
-.classes-box {
-    border-radius: 40px;
+#meditation {
+    margin-bottom: 0%;
+}
+
+.classes-box p {
     text-align: center;
-    margin-right: 10px;
 }
 
 .classes-box>h3 {
