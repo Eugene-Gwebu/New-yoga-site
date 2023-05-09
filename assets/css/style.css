@@ -7,7 +7,7 @@
 body {
     font-family: Jost, Helvetica, sans-serif;
     font-weight: 300;
-    color: #fac367;
+    color: #172846;
 }
 
 p {
@@ -19,7 +19,7 @@ p {
 header {
     min-height: 4.375rem;
     width: 100%;
-    background-color: #c8405c;
+    background-color: #4b839c;
 }
 
 nav {
@@ -44,7 +44,7 @@ h2 {
     display: inline-block;
     text-align: center;
     font-size: 200%;
-    color: #fac367;
+    color: #172846;
 }
 
 #menu,
@@ -70,11 +70,11 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #fac367;
+    border-bottom: 2px solid #172846;
 }
 
 .active {
-    border-bottom: 2px solid #fac367;
+    border-bottom: 2px solid #172846;
 }
 
 /* hero section, image and cover text */
@@ -84,18 +84,21 @@ h2 {
     font-family: Jost, Arial, Helvetica, sans-serif;
     text-transform: capitalize;
     letter-spacing: 4px;
-    color: #c8405c;
+    color: #4b839c;
 
     width: 30rem;
 
-    padding-top: 1rem;
     padding-left: 1rem;
 
-    background-color: rgba(250, 195, 103, .7);
+    background-color: rgba(23, 40, 70, .7);
 
     bottom: 32rem;
-    right: -3rem;
+    right: 59rem;
 
+    position: absolute;
+}
+
+#hero-image {
     position: relative;
 }
 
@@ -107,12 +110,9 @@ h2 {
 
 .mission-left {
     width: 48%;
-    background-color: #c8405c;
+    background-color: #4b839c;
 }
 
-.mission-right {
-    width: 33%;
-}
 
 #mission {
     text-align: center;
@@ -129,12 +129,12 @@ h2 {
 }
 
 .circle-cover-bg img {
-    width: 500px;
-    height: 500px;
-    padding: 20px;
+    width: 31.25rem;
+    height: 31.25rem;
+    padding: 1.25rem;
     border-style: solid;
-    border-color: #c8405c;
-    border-width: 2px;
+    border-color: #172846;
+    border-width: 0.125rem;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -144,7 +144,7 @@ h2 {
 /* classes section */
 
 .classes-box {
-    background-color: #c8405c;
+    background-color: #4b839c;
     width: 25%;
 }
 
@@ -181,7 +181,7 @@ h2 {
 .contact-box-container {
     width: 66%;
     margin: 0 auto;
-    background-color: #c8405c;
+    background-color: #4b839c;
 }
 
 .contact-box-left {
@@ -216,8 +216,7 @@ h3 {
 }
 
 .subscription-box {
-    background-color: #c8405c;
-    width: 20.5%;
+    background-color: #4b839c;
     padding: 10px;
     margin: 15px;
     text-align: left;
@@ -250,10 +249,10 @@ h3 {
 }
 
 form {
-    width: 700px;
-    padding: 25px;
-    border-radius: 8px;
-    margin: 25px auto;
+    width: 43.75rem;
+    padding: 1.5625rem;
+    border-radius: 0.5rem;
+    margin: 1.5625rem auto;
 }
 
 legend {
@@ -282,9 +281,9 @@ input[type=submit] {
     margin-top: 20px;
     margin-right: 0.75rem;
     padding: 0.75rem;
-    background-color: #c8405c;
-    color: #fac367;
-    border: 2px solid #fac367;
+    background-color: #4b839c;
+    color: #172846;
+    border: 2px solid #172846;
     border-radius: 5px;
 }
 
@@ -293,9 +292,9 @@ input[type=reset] {
     margin-top: 20px;
     margin-left: 0.75rem;
     padding: 0.5rem;
-    background-color: #c8405c;
-    color: #fac367;
-    border: 2px solid #fac367;
+    background-color: #4b839c;
+    color: #172846;
+    border: 2px solid #172846;
     border-radius: 5px;
     position: relative;
     left: 506px;
@@ -304,14 +303,14 @@ input[type=reset] {
 /* Footer Section */
 
 footer {
-    background-color: #c8405c;
+    background-color: #4b839c;
     padding: 2em 0;
     text-align: center;
     width: 100%;
     bottom: 0;
     right: 0;
     text-transform: uppercase;
-    color: #fac367;
+    color: #172846;
 }
 
 /* Media Queries */
@@ -325,21 +324,44 @@ footer {
     }
 
     #our-mission {
-        padding: 30px 0;
-        margin: 0%;
+        padding: 0;
+        margin: 0;
     }
 
     .mission-left,
     .mission-right {
         width: 100%;
         padding: 2%;
-        float: left;
+        margin: 0 auto;
+    }
+
+    #contact {
+        width: 100%;
+        padding: 2%;
+        margin: 0 auto;
+    }
+
+    .classes-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #classes {
+        padding: 30px 0;
+        margin: 0%;
+    }
+
+    .subscriptions-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
 /* for medium screen sizes from 950px wide and down */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 600px) {
 
     nav {
         clear: left;
@@ -348,4 +370,27 @@ footer {
         margin-bottom: 1.25rem;
         line-height: 1.5625rem;
     }
+
+    #cover-text {
+        left: 0;
+        margin-top: 20%;
+    }
+
+    /*.mission-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }*/
+
+    .mission-container {
+        width: 90%;
+        height: 75rem;
+        margin: 0 auto;
+    }
+
+    .mission-left,
+    .mission-right {
+        width: 100%,
+    }
+
 }
