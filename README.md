@@ -95,6 +95,8 @@ with other people, or by themselves with their own instructor depending on which
 
 * ### Unsolved Bugs 
 * The navigation bar has a small mark in the middle that seems to be part of the <nav> element that turns the logo into a clickable link.
+* I was not able to fix the error from the html testing. The charset element is an important part of the html fil and I could not determine
+  why the testing flagged it as an error. 
 
 ## Deployment 
   
