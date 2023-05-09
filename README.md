@@ -3,7 +3,8 @@
 Yoga Domain is a website that provides online videos with instructions to help users do yoga and meditation 
 from the comfort of their own home. As the tagline on the home page says, it's "your one-stop shop for yoga and 
 meditation at home". 
-![](
+
+![](MOCKUPS.png)
 
 On the Website, users will be able to watch videos that they can follow along to. This content is accessible from 
 anywhere in the world, and users can participate in their own time. However, they can also participate in group 
@@ -102,6 +103,7 @@ with other people, or by themselves with their own instructor depending on which
   
 * I managed to deploy the website on github through the github pages section.
 * I chose to deploy the site through the main branch. 
+The link can be found [here](https://eugene-gwebu.github.io/New-yoga-site/)
   
 ## Credit 
   ### Content 
