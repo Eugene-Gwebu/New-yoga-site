@@ -28,6 +28,7 @@ with other people, or by themselves with their own instructor depending on which
 * The image is a woman meditating with her back toward the user as she stair at a large and expansive landscape.
 * the landscape gives the feeling of entering a large space that gives the user room to breathe and expand (or stretch) with no limits, much like the font. 
 
+![](HOME.png)
 
 ## The Mission 
 
@@ -36,7 +37,7 @@ with other people, or by themselves with their own instructor depending on which
 * This statement is seen on the left side of the section, on the right side is an image to accompany and compliment the mission statement. 
 * The photo on the right is a woman who is meditating peacefully and is visibly happy doing so in the comfort of her own home. 
 
-
+![](MISSION.png)
 
 ## The Classes 
 
@@ -45,12 +46,16 @@ with other people, or by themselves with their own instructor depending on which
 * This is the main informative section which teaches users the difference between meditation, "hatha" and "ashtanga" yoga , and informs them of the difficulty levels they might expect from each one. 
 * The information is devided into three horizontaly aligned sections in the form of square cards in order to make it easily digestible, so as not to overwhelm the users. 
 
+![](CLASSES.png)
+
 ## Contact Information 
 
 * ### Contact US 
 * The contanct section is fairly simple, containing a horizontal div with three main pieces of information. 
 * There is am email, phone number and address. 
 * As this is an online business, it wouldn't tipically need a physical address, but it was added here in order to hav emore information to put on the page. 
+
+![](CONTACT.png)
 
 ## The Form 
 
@@ -61,10 +66,13 @@ with other people, or by themselves with their own instructor depending on which
 * Om the right there is the premium option for €39,99 per month, with comes with extra services such as a private instructor for yoga and meditation. 
 * Below these cards is the sign up form that collects details about the users should they decide to purchase the service. 
 
+![](JOINUS.png)
+
 ## Testing 
 
 * The website was tested on microsoft edge as well as google chrome. 
 * It is confirmed that the navigation menu works as desired, and clicking on each link will guide you to the seperate sections of the page, with the title landing at the top of the section. 
+
 
 ## Bugs 
 
@@ -75,7 +83,15 @@ with other people, or by themselves with their own instructor depending on which
 * ### HTML
 * One error was found on the html checking tool: 
 
-* No erros were found on the WC3 CSS validation service. 
+![](ERROR.png)
+
+* ### CSS
+* * No erros were found on the WC3 CSS validation service. 
+
+* ### Accessibility 
+* The website passed the accessibility test on lighthouse.
+
+![](IGHTHOUSE.png)
 
 * ### Unsolved Bugs 
 * The navigation bar has a small mark in the middle that seems to be part of the <nav> element that turns the logo into a clickable link.
@@ -84,5 +100,15 @@ with other people, or by themselves with their own instructor depending on which
   
 * I managed to deploy the website on github through the github pages section.
 * I chose to deploy the site through the main branch. 
+  
+## Credit 
+  ### Content 
+  * The code for the footer and the form were taken from the coders soffeehouse project.
+  * The code for the Navbar and Hero image were taken from the love running project. 
+  * The flex boxes used were thanks to instrustion from the tutors at Code Institute. 
+  
+  ### Media 
+  
+  * All of the images used on this website were from [Pexels] (https://www.pexels.com/photo/woman-sitting-on-mountain-top-doing-meditation-5548615/) 
 
 
