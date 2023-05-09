@@ -205,6 +205,11 @@ h2 {
     font-size: x-large;
 }
 
+.phone,
+.email {
+    font-size: 150%;
+}
+
 /* Form Section */
 
 h3 {
