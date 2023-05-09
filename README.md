@@ -66,5 +66,13 @@ with other people, or by themselves with their own instructor depending on which
 
 
 ## Validator Testing 
+* ### HTML
+* One error was found on the html checking tool: 
+
+* No erros were found on the WC3 CSS validation service. 
+
+* ### Unsolved Bugs 
+* The navigation bar has a small mark in the middle that seems to be part of the <nav> element that turns the logo into a clickable link.
+
 
 
