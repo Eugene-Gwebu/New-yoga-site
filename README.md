@@ -74,5 +74,9 @@ with other people, or by themselves with their own instructor depending on which
 * ### Unsolved Bugs 
 * The navigation bar has a small mark in the middle that seems to be part of the <nav> element that turns the logo into a clickable link.
 
+## Deployment 
+  
+* I managed to deploy the website on github through the github pages section.
+* I chose to deploy the site through the main branch. 
 
 
