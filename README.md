@@ -113,6 +113,6 @@ The link can be found [here](https://eugene-gwebu.github.io/New-yoga-site/)
   
   ### Media 
   
-  * All of the images used on this website were from [Pexels](https://www.pexels.com/) 
+  * All of the images used on this website were from [Pexels](https://www.pexels.com/).
 
 
