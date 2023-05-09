@@ -111,6 +111,6 @@ with other people, or by themselves with their own instructor depending on which
   
   ### Media 
   
-  * All of the images used on this website were from [Pexels] (https://www.pexels.com/photo/woman-sitting-on-mountain-top-doing-meditation-5548615/) 
+  * All of the images used on this website were from [Pexels](https://www.pexels.com/) 
 
 
