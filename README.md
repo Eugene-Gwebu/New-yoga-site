@@ -25,7 +25,7 @@ with other people, or by themselves with their own instructor depending on which
 * This page is very simple as it showes an image that spans the width of the screen. 
 * The image is a woman meditating with her back toward the user as she stair at a large and expansive landscape.
 * the landscape gives the feeling of entering a large space that gives the user room to breathe and expand (or stretch) with no limits, much like the font. 
-![](
+![](NAVBAR.png)
 
 ## The Mission 
 
