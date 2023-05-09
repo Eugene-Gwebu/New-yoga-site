@@ -58,4 +58,13 @@ with other people, or by themselves with their own instructor depending on which
 ## Testing 
 
 * The website was tested on microsoft edge as well as google chrome. 
-* It is confirmed that the navigation menu works as desired, and clicking on each link will guide you to the seperate sections of the page 
+* It is confirmed that the navigation menu works as desired, and clicking on each link will guide you to the seperate sections of the page, with the title landing at the top of the section. 
+
+## Bugs 
+
+* ### Solved Bugs 
+
+
+## Validator Testing 
+
+
