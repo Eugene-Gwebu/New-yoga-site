@@ -77,7 +77,9 @@ with other people, or by themselves with their own instructor depending on which
 
 ## Bugs 
 
-* ### Solved Bugs 
+* ### Solved Bugs
+* The cover text on the hero page was not responsive to cellphone screen width, and it was movign other elements out of alignment, my solution was to remove it. 
+* The reset button on the form was pushing all of the content in the site to the left when testing responsiveness, my solution was to remove it. 
 
 
 ## Validator Testing 
