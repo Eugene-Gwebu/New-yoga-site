@@ -178,22 +178,15 @@ h2 {
     text-align: center;
 }
 
+.box {
+    color: #172846;
+    width: 16.125rem;
+    height: 16.125rem;
+}
+
 .contact-box-container {
-    width: 66%;
-    margin: 0 auto;
-    background-color: #4b839c;
-}
-
-.contact-box-left {
-    width: 50%;
-    margin-top: -20px;
-    display: inline-block;
-}
-
-.contact-box-right {
-    width: 49%;
-    text-align: right;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
 }
 
 .contact-box-right>h3 {
@@ -254,7 +247,9 @@ h3 {
 }
 
 form {
-    width: 43.75rem;
+    width: 80vw;
+
+    max-width: 43rem;
     padding: 1.5625rem;
     border-radius: 0.5rem;
     margin: 1.5625rem auto;
@@ -278,8 +273,9 @@ fieldset {
     display: block;
 }
 
-.submit-button {
-    display: inline-block;
+.button-container {
+    display: flex;
+    justify-content: center;
 }
 
 input[type=submit] {
@@ -292,18 +288,6 @@ input[type=submit] {
     border-radius: 5px;
 }
 
-input[type=reset] {
-
-    margin-top: 20px;
-    margin-left: 0.75rem;
-    padding: 0.5rem;
-    background-color: #4b839c;
-    color: #172846;
-    border: 2px solid #172846;
-    border-radius: 5px;
-    position: relative;
-    left: 506px;
-}
 
 /* Footer Section */
 
@@ -328,45 +312,58 @@ footer {
         align-items: center;
     }
 
-    #our-mission {
-        padding: 0;
-        margin: 0;
-    }
-
-    .mission-left,
-    .mission-right {
-        width: 100%;
-        padding: 2%;
-        margin: 0 auto;
-    }
-
-    #contact {
-        width: 100%;
-        padding: 2%;
-        margin: 0 auto;
-    }
-
-    .classes-container {
+    .contact-box-container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    #classes {
-        padding: 30px 0;
-        margin: 0%;
-    }
+}
 
-    .subscriptions-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+#contact {
+    padding: 2%;
+    margin: 0 auto;
+    background-color: #4b839c;
+}
+
+.classes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#classes {
+    padding: 30px 0;
+    margin: 0%;
+}
+
+.subscriptions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    width: 100%;
+    margin: 0 auto;
+}
+
+input {
+    padding: 2%;
+    margin: 0 auto;
+    float: left;
+}
+
+
+#cover-text {
+    bottom: 0;
+    margin-top: 20%;
+}
 }
 
 /* for medium screen sizes from 950px wide and down */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 950px) {
 
     nav {
         clear: left;
@@ -377,7 +374,7 @@ footer {
     }
 
     #cover-text {
-        left: 0;
+        bottom: 0;
         margin-top: 20%;
     }
 
@@ -390,6 +387,38 @@ footer {
     .mission-left,
     .mission-right {
         width: 100%,
+    }
+
+
+    .cover-circle-bg {
+        height: 20.25rem;
+        width: 20.25rem;
+    }
+
+
+}
+
+@media screen and (max-width:300px) {
+
+    .mission-left,
+    .mission-right {
+        width: 100%;
+        padding: 2%;
+        margin: 0 auto;
+    }
+
+    form {
+        margin: bottom 10%;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .circle-cover-bg img {
+        width: 80vw;
+        height: 80vw;
+        float: left;
     }
 
 }
